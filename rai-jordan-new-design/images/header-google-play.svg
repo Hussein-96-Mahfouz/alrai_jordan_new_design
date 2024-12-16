@@ -1,0 +1,34 @@
+<svg width="40" height="36" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="39" height="35" rx="4.5" fill="#FCFCFC" stroke="#E4E4E4" style="fill:#FCFCFC;fill:color(display-p3 0.9882 0.9882 0.9882);fill-opacity:1;stroke:#E4E4E4;stroke:color(display-p3 0.8939 0.8939 0.8939);stroke-opacity:1;"/>
+  <path d="M13.2955 10.247C13.1083 10.4383 13 10.7361 13 11.1218V24.8787C13 25.2644 13.1083 25.5622 13.2955 25.7535L13.3417 25.7954L21.2374 18.0896V17.9077L13.3417 10.2019L13.2955 10.247Z" fill="url(#paint0_linear_249_192)" style=""/>
+  <path d="M23.8663 20.6595L21.2373 18.0896V17.9077L23.8695 15.3378L23.9284 15.3712L27.0456 17.1029C27.9352 17.5943 27.9352 18.403 27.0456 18.8975L23.9284 20.6261L23.8663 20.6595Z" fill="url(#paint1_linear_249_192)" style=""/>
+  <path d="M23.9284 20.6261L21.2373 17.9987L13.2954 25.7535C13.5909 26.0567 14.0727 26.0933 14.6207 25.79L23.9284 20.6261Z" fill="url(#paint2_linear_249_192)" style=""/>
+  <path d="M23.9284 15.3712L14.6207 10.2074C14.0727 9.90721 13.5909 9.94375 13.2954 10.247L21.2373 17.9987L23.9284 15.3712Z" fill="url(#paint3_linear_249_192)" style=""/>
+  <defs>
+    <linearGradient id="paint0_linear_249_192" x1="20.5363" y1="25.0219" x2="10.0996" y2="14.3323" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00A0FF" style="stop-color:#00A0FF;stop-color:color(display-p3 0.0000 0.6275 1.0000);stop-opacity:1;"/>
+      <stop offset="0.0066" stop-color="#00A1FF" style="stop-color:#00A1FF;stop-color:color(display-p3 0.0000 0.6314 1.0000);stop-opacity:1;"/>
+      <stop offset="0.2601" stop-color="#00BEFF" style="stop-color:#00BEFF;stop-color:color(display-p3 0.0000 0.7451 1.0000);stop-opacity:1;"/>
+      <stop offset="0.5122" stop-color="#00D2FF" style="stop-color:#00D2FF;stop-color:color(display-p3 0.0000 0.8235 1.0000);stop-opacity:1;"/>
+      <stop offset="0.7604" stop-color="#00DFFF" style="stop-color:#00DFFF;stop-color:color(display-p3 0.0000 0.8745 1.0000);stop-opacity:1;"/>
+      <stop offset="1" stop-color="#00E3FF" style="stop-color:#00E3FF;stop-color:color(display-p3 0.0000 0.8902 1.0000);stop-opacity:1;"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_249_192" x1="28.204" y1="17.9978" x2="12.7873" y2="17.9978" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE000" style="stop-color:#FFE000;stop-color:color(display-p3 1.0000 0.8784 0.0000);stop-opacity:1;"/>
+      <stop offset="0.4087" stop-color="#FFBD00" style="stop-color:#FFBD00;stop-color:color(display-p3 1.0000 0.7412 0.0000);stop-opacity:1;"/>
+      <stop offset="0.7754" stop-color="#FFA500" style="stop-color:#FFA500;stop-color:color(display-p3 1.0000 0.6471 0.0000);stop-opacity:1;"/>
+      <stop offset="1" stop-color="#FF9C00" style="stop-color:#FF9C00;stop-color:color(display-p3 1.0000 0.6118 0.0000);stop-opacity:1;"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear_249_192" x1="22.4651" y1="16.5704" x2="8.31204" y2="2.07439" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF3A44" style="stop-color:#FF3A44;stop-color:color(display-p3 1.0000 0.2275 0.2667);stop-opacity:1;"/>
+      <stop offset="1" stop-color="#C31162" style="stop-color:#C31162;stop-color:color(display-p3 0.7647 0.0667 0.3843);stop-opacity:1;"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear_249_192" x1="11.2963" y1="30.3303" x2="17.6162" y2="23.8573" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#32A071" style="stop-color:#32A071;stop-color:color(display-p3 0.1961 0.6275 0.4431);stop-opacity:1;"/>
+      <stop offset="0.0685" stop-color="#2DA771" style="stop-color:#2DA771;stop-color:color(display-p3 0.1765 0.6549 0.4431);stop-opacity:1;"/>
+      <stop offset="0.4762" stop-color="#15CF74" style="stop-color:#15CF74;stop-color:color(display-p3 0.0824 0.8118 0.4549);stop-opacity:1;"/>
+      <stop offset="0.8009" stop-color="#06E775" style="stop-color:#06E775;stop-color:color(display-p3 0.0235 0.9059 0.4588);stop-opacity:1;"/>
+      <stop offset="1" stop-color="#00F076" style="stop-color:#00F076;stop-color:color(display-p3 0.0000 0.9412 0.4627);stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+</svg>
