@@ -247,12 +247,18 @@ header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items: ce
 .alrai-scrollable-content .owl-pagination .owl-page{background: #D9D9D9;width: calc(100% / 3);}
 .alrai-scrollable-content .owl-pagination .owl-page.active{background: #00A0E5;width: calc(100%/3);}
 
+@media screen and (max-width: 768px){
+    .alrai-scrollable-content .item-row{
+        width: 100%;
+    }
+
+}
 
 /*7th Widget محليات*/
 .alrai-mahlyat-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
 .alrai-mahlyat-widget .title-widget-1 {margin-bottom: 26px;}
 .alrai-mahlyat-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
-.alrai-mahlyat-widget .col-part-one.col-4{margin-left: 28px;max-width: 30%;flex: 0 0 30%}
+.alrai-mahlyat-widget .col-part-one.col-4{padding-left: 28px;max-width: 30%;flex: 0 0 30%}
 .alrai-mahlyat-widget .col-part-one .img-ratio{padding-bottom: 71%;}
 .alrai-mahlyat-widget .col-part-one .item-info {background: linear-gradient(250deg, #00576F 20.21%, rgba(0, 87, 111, 0.25) 98.28%);min-height: 195px;}
 .alrai-mahlyat-widget .col-part-one .item-info a{color: #FFF;color: color(display-p3 1 1 1);text-align: right;font-family: 'Almarai';font-size: 28px;font-style: normal;font-weight: 700;line-height: 39px;text-decoration: none;padding: 30px 25px 43px 20px;}
@@ -262,34 +268,38 @@ header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items: ce
 .alrai-mahlyat-widget .col-part-two .item-row a.size-15{color: #000;color: color(display-p3 0 0 0);text-align: right;font-family: 'Almarai';font-size: 15px;font-style: normal;font-weight: 800;line-height: 25px;text-decoration: none;padding-top: 6px;}
 
 .alrai-mahlyat-widget .col-part-three{padding-right: 28px;}
-.alrai-mahlyat-widget .col-part-three .item-row {
-    padding: 30px 0;
-    border-bottom: 1px solid #D9D9D9;
-}
+.alrai-mahlyat-widget .col-part-three .item-row {padding: 30px 0;border-bottom: 1px solid #D9D9D9;}
+.alrai-mahlyat-widget .col-part-three .item-row .item-info{width: 245px;}
+.alrai-mahlyat-widget .col-part-three .item-row:first-child {padding-top: 0;}
+.alrai-mahlyat-widget .col-part-three .item-row:last-child {border-bottom: 0;padding-bottom: 0;}
+.alrai-mahlyat-widget .col-part-three .item-row .item-info a{color: #000;color: color(display-p3 0 0 0);text-align: right;font-family: Almarai;font-size: 15px;font-style: normal;font-weight: 800;line-height: 25px;text-decoration: none;}
 
-.alrai-mahlyat-widget .col-part-three .item-row .item-info{
-    width: 245px;
-}
 
-.alrai-mahlyat-widget .col-part-three .item-row:first-child {
-    padding-top: 0;
-}
+@media screen and (max-width: 768px){
+    .alrai-mahlyat-widget .col-part-one.col-4{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 15px;
+    }
+    .alrai-mahlyat-widget .col-part-one.col-4{
+        padding-left: 0;
+    }
+    .alrai-mahlyat-widget .col-part-two{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .alrai-mahlyat-widget .col-part-two{
+        gap: 40px;
+        margin-bottom: 15px;
+    }
 
-.alrai-mahlyat-widget .col-part-three .item-row:last-child {
-    border-bottom: 0;
-    padding-bottom: 0;
-}
-
-.alrai-mahlyat-widget .col-part-three .item-row .item-info a{
-    color: #000;
-    color: color(display-p3 0 0 0);
-    text-align: right;
-    font-family: Almarai;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 25px;
-    text-decoration: none;
+    .alrai-mahlyat-widget .col-part-three{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .alrai-mahlyat-widget .col-part-three .item-row .item-info{
+        width: 100%;
+    }
 }
 
 /*Footer Style Start*/
