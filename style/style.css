@@ -20,6 +20,14 @@ html, body {
     font-size: 14px;
 }
 
+@media (min-width: 1480px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1440px;
+    }
+}
+
+
+
 header {
     z-index: 2;
     position: relative;
@@ -329,7 +337,7 @@ clear {
     display: flex;
     flex-flow: row wrap;
     margin: auto;
-    padding: 0px 10px;
+    padding: 0px 15px;
     justify-content: space-between;
 }
 
