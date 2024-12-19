@@ -410,7 +410,7 @@ header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items: ce
 }
 
 /*13th Widget*/
-.death-statistics-marquee {margin-bottom: 10px;}
+.death-statistics-marquee {margin: 35px auto}
 .death-statistics-marquee .breaking-news-wrapper {width: 100%;display: flex;}
 .death-statistics-marquee .breaking-news {background-color: #7C0000;padding: 22px 17px 24px 18px;color: #FFF;text-align: right;font-family: 'Almarai';font-size: 22px;font-weight: 700;line-height: 25px;}
 .death-statistics-marquee .breaking-news-content {background-color: #B90000;padding: 22px 18px 24px 21px;color: #FFF;text-align: right;font-family: 'Almarai';font-size: 22px;font-weight: 700;line-height: 25px;width: 100%;position: relative;}
@@ -456,6 +456,24 @@ header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items: ce
     .alrai-economy-widget .col-part-three{max-width: 100%;flex: 0 0 100%;}
     .alrai-economy-widget .col-part-three .item-row .item-info{width: 100%;}
     .alrai-economy-widget .col-part-two .item-row{max-width: 100%;flex: 0 0 100%}
+}
+
+/*15th Widget*/
+.alrai-sport-widget{
+    padding-top: 35px;}
+.alrai-sport-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
+.alrai-sport-widget .title-widget-1 {margin-bottom: 26px;}
+.alrai-sport-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
+.alrai-sport-widget .img-ratio{padding-bottom: 56%;}
+.alrai-sport-widget .item-info{padding: 15px 15px 28px 16px;}
+.alrai-sport-widget .item-info a{color: #000;color: color(display-p3 0 0 0);text-align: right;font-family: Almarai;font-size: 15px;font-style: normal;font-weight: 800;line-height: 25px;text-decoration: none;}
+.alrai-sport-widget .item-row{padding-right: 1px;width: 280px}
+.alrai-sport-widget .owl-pagination{display: flex;justify-content: center;margin-top: 15px;height: 10px;background: #D9D9D9;}
+.alrai-sport-widget .owl-pagination .owl-page{background: #D9D9D9;width: calc(100% / 3);}
+.alrai-sport-widget .owl-pagination .owl-page.active{background: #00A0E5;width: calc(100%/3);}
+
+@media screen and (max-width: 768px){
+    .alrai-sport-widget .item-row{width: 100%;}
 }
 
 /*Footer Style Start*/
