@@ -459,21 +459,21 @@ header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items: ce
 }
 
 /*15th Widget*/
-.alrai-sport-widget{
+.alrai-education-widget{
     padding-top: 35px;}
-.alrai-sport-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-sport-widget .title-widget-1 {margin-bottom: 26px;}
-.alrai-sport-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
-.alrai-sport-widget .img-ratio{padding-bottom: 56%;}
-.alrai-sport-widget .item-info{padding: 15px 15px 28px 16px;}
-.alrai-sport-widget .item-info a{color: #000;color: color(display-p3 0 0 0);text-align: right;font-family: Almarai;font-size: 15px;font-style: normal;font-weight: 800;line-height: 25px;text-decoration: none;}
-.alrai-sport-widget .item-row{padding-right: 1px;width: 280px}
-.alrai-sport-widget .owl-pagination{display: flex;justify-content: center;margin-top: 15px;height: 10px;background: #D9D9D9;}
-.alrai-sport-widget .owl-pagination .owl-page{background: #D9D9D9;width: calc(100% / 3);}
-.alrai-sport-widget .owl-pagination .owl-page.active{background: #00A0E5;width: calc(100%/3);}
+.alrai-education-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
+.alrai-education-widget .title-widget-1 {margin-bottom: 26px;}
+.alrai-education-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
+.alrai-education-widget .img-ratio{padding-bottom: 56%;}
+.alrai-education-widget .item-info{padding: 15px 15px 28px 16px;}
+.alrai-education-widget .item-info a{color: #000;color: color(display-p3 0 0 0);text-align: right;font-family: Almarai;font-size: 15px;font-style: normal;font-weight: 800;line-height: 25px;text-decoration: none;}
+.alrai-education-widget .item-row{padding-right: 1px;width: 280px}
+.alrai-education-widget .owl-pagination{display: flex;justify-content: center;margin-top: 15px;height: 10px;background: #D9D9D9;}
+.alrai-education-widget .owl-pagination .owl-page{background: #D9D9D9;width: calc(100% / 3);}
+.alrai-education-widget .owl-pagination .owl-page.active{background: #00A0E5;width: calc(100%/3);}
 
 @media screen and (max-width: 768px){
-    .alrai-sport-widget .item-row{width: 100%;}
+    .alrai-education-widget .item-row{width: 100%;}
 }
 
 
@@ -512,8 +512,28 @@ header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items: ce
     border-bottom: 1px solid #D9D9D9;
 }
 
+.alrai-visitor-browsing div.follow-us{
+    display: flex;
+    margin-top: 43px;
+    align-items: center;
+}
+.alrai-visitor-browsing div.follow-us p.follow-us{
+    color: color(display-p3 0 0.6157 0.8745);
+    text-align: right;
+    font-family: "Almarai";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-left: 3px solid rgb(0, 160, 229);
+    padding-left: 2px;
+    margin-left: 10px;
+    width: fit-content;
+    margin-bottom: 0px;
+}
+
 @media screen and (max-width: 768px){
-    .col-md-9:has(.alrai-sport-widget){
+    .col-md-9:has(.alrai-education-widget){
         width: 100%;
     }
 
@@ -522,6 +542,46 @@ header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items: ce
     }
 }
 
+
+/*17th Widget*/
+
+.alrai-sport-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
+.alrai-sport-widget .title-widget-1 {margin-bottom: 26px;}
+.alrai-sport-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
+
+.alrai-sport-widget .row-1{
+    margin-bottom:  48px;
+}
+.alrai-sport-widget .row-1 .item-row{display: flex;flex-direction: row-reverse}
+.alrai-sport-widget .row-1 .item-row .item-info{padding: 37px 25px;width: calc(100% - 550px) ;background: linear-gradient(250deg, #00576F 20.21%, rgba(0, 87, 111, 0.25) 98.28%);}
+.alrai-sport-widget .row-1 .item-row .item-info a{color: #FFF;color: color(display-p3 1 1 1);text-align: right;font-family: 'Almarai';font-size: 32px;font-style: normal;font-weight: 700;line-height: 39px;text-decoration: none}
+.alrai-sport-widget .row-1 .img-ratio{width: 550px}
+
+.alrai-sport-widget .row-2{display: flex;gap: 27px;}
+.alrai-sport-widget .row-2 .img-ratio{padding-bottom: 64%;}
+.alrai-sport-widget .row-2 a{color: #000;
+    color: color(display-p3 0 0 0);
+    text-align: right;
+    font-family: Almarai;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px;
+    text-decoration: none;}
+
+.alrai-sport-widget .row-2 .article-title-row-2 {
+    padding: 15px 15px 18px 40px;
+    background: color(display-p3 0.9333 0.9333 0.9333);}
+
+@media screen and (max-width: 768px){
+    .container .row .col-md-9:has(.alrai-sport-widget){width: 100%;}
+    /*.container .row .col-md-3:has(.alrai-culture-art-widget){width: 100%;margin-top: 15px;}*/
+    .alrai-arabic-national-widget{width: 100%;}
+    .alrai-sport-widget .row-1 .item-row{flex-direction: column;}
+    .alrai-sport-widget .row-1 .img-ratio{width: 100%;}
+    .alrai-sport-widget .row-1 .item-row .item-info{width: 100%;}
+    .alrai-sport-widget .row-2{flex-direction: column;}
+}
 
 /*Footer Style Start*/
 
