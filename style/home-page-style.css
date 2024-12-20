@@ -601,11 +601,24 @@ header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items: ce
 .alrai-studies-widget .img-row{width: 100%;}
 .alrai-studies-widget .img-ratio{padding-bottom: 65%;}
 .alrai-studies-widget .item-info a{color: #000; color: color(display-p3 0 0 0); text-align: right; font-family: Almarai; font-size: 15px; font-style: normal; font-weight: 800; line-height: 25px; text-decoration: none;}
-.alrai-studies-widget .item-row:not(:first-child) > a{display: none;}
+/*.alrai-studies-widget .item-row:not(:first-child) > a{display: none;}*/
+.alrai-studies-widget  .item-row:nth-child(2){display: flex ;align-items: center}
+.alrai-studies-widget .item-row:nth-child(2) .img-ratio{width: 88px}
+.alrai-studies-widget .item-row:nth-child(2) .item-info{width: calc(100% - 88px)}
+.alrai-studies-widget .item-row:nth-child(2) .item-info a{color: #000;
+    color: color(display-p3 0 0 0);
+    text-align: right;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    text-decoration: none
+}
+
 .alrai-studies-widget .item-row a{color: #000;color: color(display-p3 0 0 0);text-align: right;font-family: Almarai;font-size: 15px;font-style: normal;font-weight: 800;line-height: 25px; /* 166.667% */text-decoration: none;}
-.alrai-studies-widget .item-row:first-child .item-info a{padding: 16px 1px 30px 19px;}
+.alrai-studies-widget .item-row:first-child .item-info a{padding: 16px 1px 0 19px;}
 .alrai-studies-widget .item-row:not(.item-row:first-child) .item-info a{padding: 23px 19px;}
-.alrai-studies-widget .item-row:not(:last-child){border-bottom: 1px solid rgba(217, 217, 217, 1);}
 
 
 @media screen and (max-width: 768px){
