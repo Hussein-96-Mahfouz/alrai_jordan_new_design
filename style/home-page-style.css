@@ -608,6 +608,12 @@ header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items: ce
 .alrai-studies-widget .item-row:not(:last-child){border-bottom: 1px solid rgba(217, 217, 217, 1);}
 
 
+@media screen and (max-width: 768px){
+    .container .row .col-md-3:has(.alrai-studies-widget){
+        width: 100%;
+    }
+}
+
 
 
 
