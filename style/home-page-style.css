@@ -689,6 +689,76 @@ header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items: ce
     }
 }
 
+/*21st Widget Your News*/
+.alrai-your-news-widget{width: 100%}
+.alrai-your-news-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
+.alrai-your-news-widget .title-widget-1 {margin-bottom: 26px;}
+.alrai-your-news-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
+
+
+.alrai-your-news-widget .col-part-1{
+    display: flex;
+    gap: 27px;
+}
+.alrai-your-news-widget .col-part-1 .item-info a{
+    color: #000;
+    color: color(display-p3 0 0 0);
+    text-align: right;
+    font-family: Almarai;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+
+.alrai-your-news-widget .col-part-1 .item-row a{
+    padding-top: 7px;
+}
+
+.alrai-your-news-widget .col-part-1 .item-row .img-ratio{
+    padding-bottom: 50%;
+}
+
+.alrai-your-news-widget .row-1{
+    display: flex;
+    gap: 26px;
+}
+
+.alrai-your-news-widget .col-part-2 .item-row a{
+    color: #000;
+    color: color(display-p3 0 0 0);
+    text-align: right;
+    font-family: Almarai;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.alrai-your-news-widget .col-part-2 .item-row:not(:last-child){
+    border-bottom: 1px solid #D9D9D9 ;
+    padding-bottom: 30px;
+}
+
+.alrai-your-news-widget .col-part-2 .item-row:last-child{
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .alrai-your-news-widget{
+        display: flex;
+        flex-direction: column;
+    }
+    .alrai-your-news-widget .row-1{
+        flex-direction: column;
+    }
+    .alrai-your-news-widget .col-part-1{flex-direction: column}
+    .alrai-your-news-widget .col-part-2{width: 100%}
+}
+
 /*Footer Style Start*/
 
 footer-1 .wrapper-social-media {display: flex;justify-content: center;align-items: center;width: 100%;gap: 15px;padding-top: 16px;padding-bottom: 17px;}
