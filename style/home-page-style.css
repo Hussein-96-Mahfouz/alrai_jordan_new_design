@@ -637,6 +637,58 @@ header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items: ce
 .alrai-caricature-widget .img-ratio{padding-bottom: 57%}
 
 
+
+/*20th Widget video widget*/
+
+.container-fluid.video-widget{background-color: #00A0E5;margin-top: 35px;}
+.container-fluid.video-widget .container{padding-bottom: 33px;}
+.alrai-video-widget{padding-top: 22px;}
+.alrai-video-widget{width: 100%}
+.alrai-video-widget .title-widget-1 a {display:flex;gap:9px;color: #fff;text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
+.alrai-video-widget .title-widget-1 {margin-bottom: 26px;display: block;}
+.alrai-video-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(255,255,255,1) 100%);z-index: 1;height: 3px;width: 100%;}
+.alrai-video-widget{padding-top: 22px;}
+.alrai-video-widget .sync-1 .item-row .img-ratio{padding-bottom: 53%;}
+.alrai-video-widget .sync-1 .item-row .item-info a.article-title{color: #FFF;color: color(display-p3 1 1 1);text-align: right;font-family: 'Almarai';font-size: 30px;font-style: normal;font-weight: 800;line-height: 40px;text-decoration: none;}
+.alrai-video-widget .sync-1 .item-row .item-info .article-subtitle a{color: #FFF;color: color(display-p3 1 1 1);text-align: right;font-family: 'Almarai';font-size: 15px;font-style: normal;font-weight: 400;line-height: 25px;text-decoration: none;}
+.alrai-video-widget .sync-1 .item-row .item-info{padding-right: 17px;}
+.alrai-video-widget .sync-2{padding-left: 29px;}
+.alrai-video-widget .sync-2 .item-row:first-child{padding-top: 30px;}
+.alrai-video-widget .sync-2 .item-row{padding-bottom: 22px;padding-top: 24px;}
+.alrai-video-widget .sync-2 .item-row:not(:last-child){border-bottom: 1px solid #fff;}
+.alrai-video-widget .sync-2 .item-row .item-info .article-subtitle a{color: #FFF;color: color(display-p3 1 1 1);text-align: right;font-family: Almarai;font-size: 15px;font-style: normal;font-weight: 800;line-height: 25px;text-decoration: none;}
+.alrai-video-widget .sync-2 .item-row .item-info .section-name{padding-bottom: 6px;}
+.alrai-video-widget .sync-2 .item-row .item-info .section-name a{color: #FE3A45;color: color(display-p3 0.9176 0.302 0.302);text-align: right;font-family: Almarai;font-size: 14px;font-style: normal;font-weight: 800;line-height: normal;text-decoration: none;}
+.alrai-video-widget .sync-2 .article-title{display: none;}
+.alrai-video-widget .sync-2 .item-row{display: flex;}
+.alrai-video-widget .sync-2 .item-row .img-ratio{width: 138px;padding-bottom: 62%;}
+.alrai-video-widget .sync-2 .item-row .item-info{width: calc(100% - 138px);padding-right: 13px;}
+.alrai-video-widget .sync-2 .item-row .anchor-img{color: #FFF;color: color(display-p3 1 1 1);text-align: right;font-family: Almarai;font-size: 15px;font-style: normal;font-weight: 800;line-height: 25px;text-decoration: none;}
+.alrai-video-widget .content-wrapper{display: flex;gap: 30px;background-color: rgba(5, 72, 105, 1);padding-left: 29px;}
+
+
+
+@media screen and (max-width: 768px){
+    .alrai-video-widget .content-wrapper{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .alrai-video-widget .content-row{
+        width: 100%;
+        padding-left: 0;
+    }
+    .alrai-video-widget .sync-2 .item-row .item-info{
+        width: 100%;
+        padding-top: 12px;
+    }
+    .alrai-video-widget .sync-2 .item-row{
+        flex-direction: column;
+    }
+    .alrai-video-widget .sync-2 .item-row .img-ratio{
+        width: 100%;
+    }
+}
+
 /*Footer Style Start*/
 
 footer-1 .wrapper-social-media {display: flex;justify-content: center;align-items: center;width: 100%;gap: 15px;padding-top: 16px;padding-bottom: 17px;}
