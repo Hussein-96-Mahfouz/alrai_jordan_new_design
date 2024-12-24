@@ -747,6 +747,41 @@ header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items: ce
     padding-top: 30px;
 }
 
+.alrai-your-news-widget .row-2 {
+    width: 100%;
+}
+
+
+.alrai-your-news-widget .row-2 .full-col .item-row{
+    width: 125px;
+}
+
+.alrai-your-news-widget .row-2 .item-row .img-ratio{
+    padding-bottom: 100%;
+}
+
+.alrai-your-news-widget .row-2 .item-row .img-ratio img{
+    border-radius: 50%;
+}
+
+.alrai-your-news-widget .row-2 .content-wrapper{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 30px;
+}
+.alrai-your-news-widget .row-2 .item-row a{
+    color: #000;
+    color: color(display-p3 0 0 0);
+    text-align: center;
+    font-family: Almarai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 768px){
     .alrai-your-news-widget{
         display: flex;
