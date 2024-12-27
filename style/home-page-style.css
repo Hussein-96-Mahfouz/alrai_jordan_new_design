@@ -42,12 +42,7 @@ header-mobile {
 }
 
 @media screen and (max-width: 991px) {
-
-    header-search .header-adv-search-wrapper.adv-search-wrapper-active{
-    }
-
-
-
+    
     header-search .header-adv-search-wrapper .header-adv-search-item{
         width: 100% !important;
     }
