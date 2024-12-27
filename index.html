@@ -25,7 +25,8 @@
     <link href="style/footer.css" rel="stylesheet"/>
     <link href="/style/home-page-style.css" rel="stylesheet"/>
     <link href="https://alrai.com/theme_alraijordan/css/select2.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://alrai.com/theme_alraijordan/css/datepicker.min.css">
+<!--    <link rel="stylesheet" type="text/css" href="https://alrai.com/theme_alraijordan/css/datepicker.min.css">-->
+    <link rel="stylesheet" href="/style/datepicker.min.css">
     <script src="https://alrai.com/theme_alraijordan/js/datepicker.js"></script>
     <script src="/scripts/jquery-3.5.1.min.js"></script>
     <script src="https://alrai.com/theme_alraijordan/js/select2.min.js"></script>
@@ -350,15 +351,15 @@
                                 <div class="header-adv-search-lbl">
                                     من
                                 </div>
-                                <input type="text" value="" data-language="ru" class="datepicker-date-from header-adv-search-date-to">
-                                <input type="hidden" name="date-from" class="date-from" value="" disabled="">
+                                <input type="text" value="" data-language="ru"   class="datepicker-date-from header-adv-search-date-to"/>
+                                <input type="hidden" name="date-from" class="date-from" value="" disabled>
                             </div>
                             <div class="header-adv-search-item">
                                 <div class="header-adv-search-lbl">
                                     إلى
                                 </div>
-                                <input type="text" value="" data-language="ru" class="datepicker-date-to header-adv-search-date-to">
-                                <input type="hidden" name="date-to" class="date-to" value="" disabled="">
+                                <input type="text" value="" data-language="ru"   class="datepicker-date-to header-adv-search-date-to"/>
+                                <input type="hidden" name="date-to" class="date-to" value="" disabled>
                             </div>
                             <div class="header-adv-search-item">
                                 <input type="submit" class="header-adv-search-button" value="بحث متقدم">
@@ -4720,10 +4721,6 @@
     </div>
 </div>
 
-
-
-
-
 <!--17th and 18th and 19th-->
 <div class="container">
     <div class="row">
@@ -4891,9 +4888,6 @@
         </div>
     </div>
 </div>
-
-
-
 <!--20th Widget Video-Widget-->
 <div class="container-fluid video-widget">
     <div class="container">
@@ -5167,8 +5161,6 @@
         </div>
     </div>
 </div>
-
-
 <!--21st Widget Your News-->
 <div class="container">
     <div class="row">
@@ -5448,8 +5440,6 @@
         </div>
     </div>
 </div>
-
-
 <!--22nd Widget-->
 <div class="container">
     <div class="row">
@@ -5880,10 +5870,7 @@
         </div>
     </div>
 </div>
-
-
 <!--23rd Widget -->
-
 <div class="container">
     <div class="row">
         <div class="col-md-9 col-xs-12">
@@ -6030,8 +6017,6 @@
         </div>
     </div>
 </div>
-
-
 </body>
 
 <footer-1>
@@ -6277,33 +6262,31 @@
         $(document).ready(function() {
             $('.header-adv-search-sections').select2();
             $('.header-adv-search-authors').select2();
-        });
-
-
-        $('.datepicker-date-from').datepicker({
-            dateFormat: 'yyyy.mm.dd',
-            onSelect: function (fd, d, picker) {
-                date = fd;
-                date_from = date.replace(" ", "");
-                date_from = date_from.replace(".", "-");
-                date_from = date_from.replace(".", "-");
-                $('.date-from').val(date_from);
-                $('.date-from').prop('disabled', false);
-                $('.datepicker-date-to').datepicker({  minDate: new Date($('.datepicker-date-from').val()) });
-            }
-        });
-
-        $('.datepicker-date-to').datepicker({
-            dateFormat: 'yyyy.mm.dd',
-            onSelect: function (fd, d, picker) {
-                date = fd;
-                date_to = date.replace(" ", "");
-                date_to = date_to.replace(".", "-");
-                date_to = date_to.replace(".", "-");
-                $('.date-to').val(date_to);
-                $('.date-to').prop('disabled', false);
-            }
-        });
+        })
+        // $('.datepicker-date-from').datepicker({
+        //     dateFormat: 'yyyy.mm.dd',
+        //     onSelect: function (fd, d, picker) {
+        //         date = fd;
+        //         date_from = date.replace(" ", "");
+        //         date_from = date_from.replace(".", "-");
+        //         date_from = date_from.replace(".", "-");
+        //         $('.date-from').val(date_from);
+        //         $('.date-from').prop('disabled', false);
+        //         $('.datepicker-date-to').datepicker({  minDate: new Date($('.datepicker-date-from').val()) });
+        //     }
+        // });
+        //
+        // $('.datepicker-date-to').datepicker({
+        //     dateFormat: 'yyyy.mm.dd',
+        //     onSelect: function (fd, d, picker) {
+        //         date = fd;
+        //         date_to = date.replace(" ", "");
+        //         date_to = date_to.replace(".", "-");
+        //         date_to = date_to.replace(".", "-");
+        //         $('.date-to').val(date_to);
+        //         $('.date-to').prop('disabled', false);
+        //     }
+        // });
 
 
 
@@ -6440,7 +6423,7 @@
     if ($('.alrai-education-widget').length > 0) {
         setTimeout(function () {
             $('.alrai-education-widget .alrai-education-content-carousel').owlCarousel({
-                items: 3,
+                items: 2,
                 loop: true,
                 margin: 27,
                 rtl: true,
