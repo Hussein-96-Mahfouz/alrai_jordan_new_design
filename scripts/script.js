@@ -1,6 +1,6 @@
 function updateHeaderDisplay() {
     const header2Tags = document.querySelectorAll('header header-2'); // Select all header-2 tags inside header
-    const header3Tags = document.querySelectorAll('header header-3'); // Select all header-3 tags inside header
+    const header3Tags = document.querySelectorAll('header header-3 > .container'); // Select all header-3 tags inside header
     const headerLogo = document.querySelectorAll('header-logo');
     const prayerWeatherInfo = document.querySelectorAll('header header-1 .prayer-weather-info'); // Select all .prayer-weather-info inside header-1
     const dateTimeInfo = document.querySelectorAll('header header-1 .date-time-info'); // Select all .date-time-info inside header-1
@@ -33,27 +33,27 @@ updateHeaderDisplay();
 window.addEventListener('resize', updateHeaderDisplay);
 
 
-document.addEventListener('DOMContentLoaded', () => {
-    if (window.matchMedia('(max-width: 990px)').matches) {
-        document.addEventListener('click', (event) => {
-            // Check if the clicked element is within header-mobile .col-1 svg
-            if (event.target.closest('header-mobile .col-1 svg')) {
-                const sideMenu = document.querySelector('side-menu');
-                const marqueeWidgets = document.querySelectorAll('.full-container .marquee-container-widget:not(.relative-widget)');
-
-                if (sideMenu.classList.contains('active-side-menu')) {
-                    sideMenu.classList.remove('active-side-menu');
-                    marqueeWidgets.forEach(widget => {
-                        widget.style.opacity = '1';
-                    });
-                } else {
-                    sideMenu.classList.add('active-side-menu');
-                    marqueeWidgets.forEach(widget => {
-                        widget.style.opacity = '0';
-                    });
-                }
-            }
-
-        });
-    }
-});
+// document.addEventListener('DOMContentLoaded', () => {
+//     if (window.matchMedia('(max-width: 990px)').matches) {
+//         document.addEventListener('click', (event) => {
+//             // Check if the clicked element is within header-mobile .col-1 svg
+//             if (event.target.closest('header-mobile .col-1 svg')) {
+//                 const sideMenu = document.querySelector('side-menu');
+//                 const marqueeWidgets = document.querySelectorAll('.full-container .marquee-container-widget:not(.relative-widget)');
+//
+//                 if (sideMenu.classList.contains('active-side-menu')) {
+//                     sideMenu.classList.remove('active-side-menu');
+//                     marqueeWidgets.forEach(widget => {
+//                         widget.style.opacity = '1';
+//                     });
+//                 } else {
+//                     sideMenu.classList.add('active-side-menu');
+//                     marqueeWidgets.forEach(widget => {
+//                         widget.style.opacity = '0';
+//                     });
+//                 }
+//             }
+//
+//         });
+//     }
+// });

@@ -42,6 +42,32 @@ header-mobile {
 }
 
 @media screen and (max-width: 991px) {
+
+    header-search .header-adv-search-wrapper.adv-search-wrapper-active{
+    }
+
+
+
+    header-search .header-adv-search-wrapper .header-adv-search-item{
+        width: 100% !important;
+    }
+
+    header-search.active-header-search .wrapper-search {
+        top: 50px;
+        position: fixed;
+        width: 100%;
+        background-color: #000;
+    }
+
+    header-search .wrapper-search {
+        top: 50px !important;
+        position: fixed !important;
+        width: 100% !important;
+        background-color: #fff !important;
+        right: 0 !important;
+    }
+
+
     header-mobile .wrapper-row {
         height: 50px;
         color: #fff;
