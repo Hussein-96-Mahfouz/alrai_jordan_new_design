@@ -409,6 +409,8 @@ footer-3 .flex-row.third-footer {border-top: 1px solid black;}
         footer-2 .col-footer-3 .sub-item .app-store{margin-left: 5px;}
         footer-2 .col-footer-3 .sub-item{display: flex;flex-direction: row;}
         footer-2 .col-footer-3 .items{display: flex; align-items: center;flex-direction: column;}
+        footer-3 .wrapper-bottom-social-media{display: flex;flex-direction: column;margin-bottom: 5px;}
+        footer-3 .wrapper-bottom-social-media .social-media{justify-content: center;}
     }
 
 
