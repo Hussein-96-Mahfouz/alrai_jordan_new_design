@@ -323,13 +323,18 @@ div.header-search .header-adv-search-wrapper .header-adv-search-button {
         display: none;
     }
 
+
 }
 
 
+@media screen and (max-width:991px){
+    div.header-1{
+        margin-top: 50px;
+    }
+}
 
 
-
-div.header-1{width: 100%;margin-top: 50px;}
+div.header-1{width: 100%;}
 
 div.header-1.flex-row {background: #F5F5F5;background: color(display-p3 0.9614 0.9614 0.9614);}
 div.header-1 .wrapper-row {height: 41px;display: flex;flex-flow: row nowrap;width: 100%;align-items: center;}
