@@ -1,10 +1,10 @@
 function updateHeaderDisplay() {
-    const header2Tags = document.querySelectorAll('header header-2'); // Select all header-2 tags inside header
-    const header3Tags = document.querySelectorAll('header header-3 > .container'); // Select all header-3 tags inside header
-    const headerLogo = document.querySelectorAll('header-logo');
-    const prayerWeatherInfo = document.querySelectorAll('header header-1 .prayer-weather-info'); // Select all .prayer-weather-info inside header-1
-    const dateTimeInfo = document.querySelectorAll('header header-1 .date-time-info'); // Select all .date-time-info inside header-1
-    const headerMobile = document.querySelector('header-mobile');
+    const header2Tags = document.querySelectorAll('header div.header-2'); // Select all header-2 tags inside header
+    const header3Tags = document.querySelectorAll('header div.header-3'); // Select all header-3 tags inside header
+    const headerLogo = document.querySelectorAll('.header-logo');
+    const prayerWeatherInfo = document.querySelectorAll('header .header-1 .prayer-weather-info'); // Select all .prayer-weather-info inside header-1
+    const dateTimeInfo = document.querySelectorAll('header .header-1 .date-time-info'); // Select all .date-time-info inside header-1
+    const headerMobile = document.querySelector('.header-mobile');
     const screenWidth = window.innerWidth;
     const footerInfo = document.querySelectorAll('flex-row.top');
 
