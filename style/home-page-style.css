@@ -758,8 +758,8 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 .alrai-education-widget .owl-pagination .owl-page.active{background: #00A0E5;width: calc(100%/3);}
 
 
-.alrai-education-widget .owl-pagination .swiper-pagination-bullet{background: #D9D9D9;width: calc(100% / 5);border-radius: 0;}
-.alrai-education-widget .owl-pagination .swiper-pagination-bullet-active{background: #00A0E5;width: calc(100%/5);}
+.alrai-education-widget .owl-pagination .swiper-pagination-bullet{background: #D9D9D9;width: calc(100% / 3);border-radius: 0;}
+.alrai-education-widget .owl-pagination .swiper-pagination-bullet-active{background: #00A0E5;width: calc(100%/3);}
 .alrai-education-widget .swiper{height: 100%;}
 
 @media screen and (max-width: 768px){
