@@ -44,6 +44,10 @@ div.header-mobile {
     width: 100%;
 }
 
+.header-search .advanced-search-span{
+    padding-left: 10px;
+}
+
 
 header .header-search .choices{
     width: 200px;
@@ -336,7 +340,6 @@ div.header-search .header-adv-search-wrapper .header-adv-search-button {
 
 div.header-1{width: 100%;}
 
-div.header-1.flex-row {background: #F5F5F5;background: color(display-p3 0.9614 0.9614 0.9614);}
 div.header-1 .wrapper-row {height: 41px;display: flex;flex-flow: row nowrap;width: 100%;align-items: center;}
 div.header-1 .flex-end .store-icons {display: flex;}
 div.header-1 .flex-end {align-items: center;}
@@ -433,6 +436,10 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 .alrai-four-articles-slider .img-ratio {padding-bottom: 71%;}
 .alrai-four-articles-slider .article-title a {color: #000;color: color(display-p3 0 0 0);text-align: right;font-family: Almarai;font-size: 13px;font-style: normal;font-weight: 700;line-height: 18px;text-decoration: none;}
 
+.alrai-four-articles-slider .swiper-button-next{z-index: 0;}
+.alrai-four-articles-slider .swiper-button-prev{z-index: 0;}
+
+
 .alrai-four-articles-slider .swiper {
     padding: 0 50px; /* Add padding to the left and right */
     margin-right: -15px;
@@ -511,6 +518,8 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
         width: 100%;
     }
 
+    
+
 }
 
 /*7th Widget محليات*/
@@ -568,6 +577,8 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 
 @media screen and (max-width: 768px){
 
+
+
     .container .row .col-md-4:has(.alrai-follow-widget){
         flex: 0 0 100%;
         max-width: 100%;
@@ -615,13 +626,17 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
     background: color(display-p3 0.9333 0.9333 0.9333);}
 
 @media screen and (max-width: 768px){
-    .container .row .col-md-9:has(.alrai-arabic-national-widget){width: 100%;}
+    .container .row .col-md-9:has(.alrai-arabic-national-widget){width: 100%;padding-left: 0;}
     .container .row .col-md-3:has(.alrai-culture-art-widget){width: 100%;margin-top: 15px;}
-    alrai-arabic-national-widget{width: 100%;}
+    .alrai-arabic-national-widget{width: 100%;}
     .alrai-arabic-national-widget .row-1 .item-row{flex-direction: column;}
     .alrai-arabic-national-widget .row-1 .img-ratio{width: 100%;}
     .alrai-arabic-national-widget .row-1 .item-row .item-info{width: 100%;}
     .alrai-arabic-national-widget .row-2{flex-direction: column;}
+
+    .container .row:has(.col-md-9:has(.alrai-arabic-national-widget)) {
+        width: fit-content;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -719,9 +734,13 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
     .alrai-economy-widget .col-part-one.col-4{padding-left: 0;}
     .alrai-economy-widget .col-part-two{max-width: 100%;flex: 0 0 100%;}
     .alrai-economy-widget .col-part-two{gap: 40px;margin-bottom: 15px;}
-    .alrai-economy-widget .col-part-three{max-width: 100%;flex: 0 0 100%;}
+    .alrai-economy-widget .col-part-three{max-width: 100%;flex: 0 0 100%; padding-right: 0;}
     .alrai-economy-widget .col-part-three .item-row .item-info{width: 100%;}
     .alrai-economy-widget .col-part-two .item-row{max-width: 100%;flex: 0 0 100%}
+
+    .container .row .col-md-12:has(.alrai-economy-widget){
+        padding-left: 0;
+    }
 }
 
 /*15th Widget*/
@@ -787,6 +806,7 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
     display: flex;
     margin-top: 43px;
     align-items: center;
+    gap: 7px;
 }
 .alrai-visitor-browsing div.follow-us p.follow-us{
     color: color(display-p3 0 0.6157 0.8745);
@@ -851,7 +871,7 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 
 @media screen and (max-width: 768px){
     .container .row .col-md-9:has(.alrai-sport-widget){width: 100%;}
-    .container .row .col-md-3:has(.alrai-culture-art-widget){width: 100%;margin-top: 15px;}
+    .container .row .col-md-3:has(.alrai-culture-art-widget){width: 100%;margin-top: 15px;padding-left: 0;}
     .alrai-arabic-national-widget{width: 100%;}
     .alrai-sport-widget .row-1 .item-row{flex-direction: column;}
     .alrai-sport-widget .row-1 .img-ratio{width: 100%;}
@@ -982,7 +1002,7 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 @media screen and (max-width: 768px){
     .alrai-your-news-widget{display: flex;flex-direction: column;}
     .alrai-your-news-widget .row-1{flex-direction: column;}
-    .alrai-your-news-widget .col-part-1{flex-direction: column}
+    .alrai-your-news-widget .col-part-1{flex-direction: column;width: 100%;}
     .alrai-your-news-widget .col-part-2{width: 100%}
 }
 
@@ -1016,6 +1036,9 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
     .alrai-gallery-widget [class^='row-'] {flex-direction: column;}
     .alrai-gallery-widget [class^='row-'] .item-row{width: 100%;}
     .alrai-gallery-widget .row-2 .item-row .img-ratio{padding-bottom: 67.16%;}
+    .container .row .col-md-12:has(.alrai-gallery-widget){
+        padding-left: 0;
+    }
 }
 
 
@@ -1041,7 +1064,7 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 @media screen and (max-width: 768px){
 
 
-    .container .row .col-md-9:has(.alrai-abwab-widget){width: 100%;}
+    .container .row .col-md-9:has(.alrai-abwab-widget){width: 100%;padding-left: 0;}
     .alrai-abwab-widget [class^='col-part-']{width: 100%;}
     .alrai-abwab-widget [class^='col-part-'] .item-row{width: 100%;}
     .alrai-abwab-widget .col-part-two{padding-right: 0;}
