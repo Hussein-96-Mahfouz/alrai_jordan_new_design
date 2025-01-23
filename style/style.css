@@ -735,6 +735,11 @@ div.hidden-ad {
     width: 100%;
 }
 
+.title-widget-1 {margin-bottom: 26px;}
+.title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
+.title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
+
+
 @media screen and (max-width: 768px) {
     #popup-ad {
         margin-left: -150px;

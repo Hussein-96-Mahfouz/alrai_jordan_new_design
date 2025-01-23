@@ -496,9 +496,7 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 /*6th Widget  من هنا و هناك*/
 
 
-.alrai-scrollable-content .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-scrollable-content .title-widget-1 {margin-bottom: 26px;}
-.alrai-scrollable-content .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
+
 .alrai-scrollable-content .img-ratio{padding-bottom: 56%;}
 .alrai-scrollable-content .item-info{padding: 15px 15px 28px 16px;border: 1px solid rgba(211, 211, 211, 1);}
 .alrai-scrollable-content .item-info a{color: #000;color: color(display-p3 0 0 0);text-align: right;font-family: Almarai;font-size: 15px;font-style: normal;font-weight: 800;line-height: 25px;text-decoration: none;}
@@ -523,9 +521,6 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 }
 
 /*7th Widget محليات*/
-.alrai-mahlyat-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-mahlyat-widget .title-widget-1 {margin-bottom: 26px;}
-.alrai-mahlyat-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
 .alrai-mahlyat-widget .col-part-one.col-4{padding-left: 28px;max-width: 30%;flex: 0 0 30%}
 .alrai-mahlyat-widget .col-part-one .img-ratio{padding-bottom: 71%;}
 .alrai-mahlyat-widget .col-part-one .item-info {background: linear-gradient(250deg, #00576F 20.21%, rgba(0, 87, 111, 0.25) 98.28%);min-height: 195px;}
@@ -555,9 +550,6 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 
 /*8th Widget */
 
-.alrai-writer-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-writer-widget .title-widget-1 {margin-bottom: 26px;}
-.alrai-writer-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
 .alrai-writer-widget .item-row{margin-bottom: 30px;}
 .alrai-writer-widget .col-img {width: 70px;display: flex;flex-flow:column;margin-left: 20px;border-radius: 50%;border:2px solid #00A0E5;overflow: hidden}
 .alrai-writer-widget .col-img .img-ratio {padding-bottom: 100%}
@@ -597,9 +589,6 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 }
 
 /*10th Widget*/
-.alrai-arabic-national-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-arabic-national-widget .title-widget-1 {margin-bottom: 26px;}
-.alrai-arabic-national-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
 
 .alrai-arabic-national-widget .row-1{
     margin-bottom:  48px;
@@ -668,9 +657,6 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 /*12th Widget*/
 .alrai-community-content{
     padding-top: 35px;}
-.alrai-community-content .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-community-content .title-widget-1 {margin-bottom: 26px;}
-.alrai-community-content .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
 .alrai-community-content .img-ratio{padding-bottom: 56%;}
 .alrai-community-content .item-info{padding: 15px 15px 28px 16px;}
 .alrai-community-content .item-info a{color: #000;color: color(display-p3 0 0 0);text-align: right;font-family: Almarai;font-size: 15px;font-style: normal;font-weight: 800;line-height: 25px;text-decoration: none;}
@@ -707,9 +693,6 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 
 
 /*14th Widget*/
-.alrai-economy-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-economy-widget .title-widget-1 {margin-bottom: 26px;}
-.alrai-economy-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
 .alrai-economy-widget .col-part-one.col-4{padding-left: 28px;max-width: 30%;flex: 0 0 30%}
 .alrai-economy-widget .col-part-one .img-ratio{padding-bottom: 95%;}
 .alrai-economy-widget .col-part-one .item-info {background: linear-gradient(250deg, #00576F 20.21%, rgba(0, 87, 111, 0.25) 98.28%);min-height: 195px;}
@@ -746,9 +729,6 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 /*15th Widget*/
 .alrai-education-widget{
     padding-top: 35px;}
-.alrai-education-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-education-widget .title-widget-1 {margin-bottom: 26px;}
-.alrai-education-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
 .alrai-education-widget .img-ratio{padding-bottom: 56%;}
 .alrai-education-widget .item-info{padding: 15px 15px 28px 16px;}
 .alrai-education-widget .item-info a{color: #000;color: color(display-p3 0 0 0);text-align: right;font-family: Almarai;font-size: 15px;font-style: normal;font-weight: 800;line-height: 25px;text-decoration: none;}
@@ -770,9 +750,7 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 /*16th Widget*/
 .alrai-visitor-browsing{
     padding-top: 35px;width: 100%}
-.alrai-visitor-browsing .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-visitor-browsing .title-widget-1 {margin-bottom: 23px;}
-.alrai-visitor-browsing .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
+.alrai-visitor-browsing .title-widget-1.mb-23 {margin-bottom: 23px;}
 
 .alrai-visitor-browsing .item-row .flex-column > a{
     display: none;
@@ -838,9 +816,6 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 
 
 
-.alrai-sport-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-sport-widget .title-widget-1 {margin-bottom: 26px;}
-.alrai-sport-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
 
 .alrai-sport-widget .row-1{
     margin-bottom:  48px;
@@ -884,9 +859,6 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 
 
 /*18th Widget*/
-.alrai-studies-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-studies-widget .title-widget-1 {margin-bottom: 26px;}
-.alrai-studies-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
 .alrai-studies-widget{
     padding-top: 35px;}
 .alrai-studies-widget .img-row{width: 100%;}
@@ -921,9 +893,6 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 
 /*19th Widget*/
 .alrai-caricature-widget{width: 100%}
-.alrai-caricature-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-caricature-widget .title-widget-1 {margin-bottom: 26px;}
-.alrai-caricature-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
 
 .alrai-caricature-widget .img-ratio{padding-bottom: 57%}
 
@@ -982,9 +951,6 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 
 /*21st Widget Your News*/
 .alrai-your-news-widget{width: 100%;margin-top: 35px;}
-.alrai-your-news-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-your-news-widget .title-widget-1 {margin-bottom: 26px;}
-.alrai-your-news-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
 .alrai-your-news-widget .col-part-1{display: flex;gap: 27px;}
 .alrai-your-news-widget .col-part-1 .item-info a{color: #000;color: color(display-p3 0 0 0);text-align: right;font-family: Almarai;font-size: 15px;font-style: normal;font-weight: 800;line-height: 25px;text-decoration: none;}
 .alrai-your-news-widget .col-part-1 .item-row a{padding-top: 7px;}
@@ -1008,10 +974,6 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 
 /*22nd Widget gallery*/
 .alrai-gallery-widget{width: 100%;margin-top: 40px;}
-.alrai-gallery-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-gallery-widget .title-widget-1 {margin-bottom: 26px;}
-.alrai-gallery-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
-
 .alrai-gallery-widget .title-widget-1 .title-wrapper{width: 386px;display: flex;}
 .alrai-gallery-widget .title-widget-1 .title-wrapper a{color: #909090;text-align: right;font-family: Almarai;font-size: 23px;font-style: normal;font-weight: 800;line-height: 30px;text-decoration: none;width: 100%;display: flex;gap: 14px;align-items: center;padding: 4px 17px 10px 18px;}
 .alrai-gallery-widget .title-widget-1 .title-wrapper .first-title,
@@ -1047,11 +1009,6 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 
 
 .alrai-abwab-widget{width: 100%;margin-top: 35px;}
-.alrai-abwab-widget .title-widget-1 a {color: color(display-p3 0 0.6157 0.8745);text-align: right;font-family: 'Almarai';font-size: 24px;font-style: normal;font-weight: 800;line-height: 39px;text-decoration: none;padding-bottom: 5px;}
-.alrai-abwab-widget .title-widget-1 {margin-bottom: 26px;}
-.alrai-abwab-widget .title-widget-1::after {content: "";position: absolute;left: 0;right: 0;bottom: 0;background: linear-gradient(90deg, rgba(0, 85, 121, 0.05) 0%, rgba(0, 157, 223, 1) 100%);z-index: 1;height: 3px;width: 100%;}
-
-
 .alrai-abwab-widget .item-row{display: flex;flex-direction: row;align-items: center;gap: 7px;border: 1px solid #D9D9D9;padding-left: 13px;position: relative;}
 .alrai-abwab-widget .item-row .section-name{position: absolute;left: 0;top: 0;z-index: 1;background: #AA015E;}
 .alrai-abwab-widget .item-row .section-name a{padding: 6px 11px 6px 12px;color: #fff !important;}
