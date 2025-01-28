@@ -551,7 +551,7 @@ div.header-3 .col-layout-2 {width: 35px;display: flex;flex-flow: row;align-items
 /*8th Widget */
 
 .alrai-writer-widget .item-row{margin-bottom: 30px;}
-.alrai-writer-widget .col-img {width: 70px;display: flex;flex-flow:column;margin-left: 20px;border-radius: 50%;border:2px solid #00A0E5;overflow: hidden}
+.alrai-writer-widget .col-img {width: 70px;display: flex;flex-flow:column;margin-left: 20px;border-radius: 50%;border:2px solid #00A0E5;overflow: hidden;height: 70px;}
 .alrai-writer-widget .col-img .img-ratio {padding-bottom: 100%}
 .alrai-writer-widget .content-row{flex-wrap: wrap}
 .alrai-writer-widget .article-title{width: calc(100% - 90px)}
